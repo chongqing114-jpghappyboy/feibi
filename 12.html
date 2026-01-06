@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Image Viewer</title>
+  <style>
+    html, body { height: 100%; margin: 0; background: #fff; }
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    img {
+      max-width: min(1100px, 95vw);
+      max-height: 92vh;
+      width: auto;
+      height: auto;
+      display: block;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <img src="./12.jpg" alt="image" />
+  </div>
+</body>
+</html>
